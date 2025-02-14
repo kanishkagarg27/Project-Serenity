@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Diary</title>
+    <link rel="stylesheet" href="diary.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>MY PERSONAL DIARY</h1>
+    </header>
+
+    <!-- Diary Section -->
+    <section class="diary-container">
+        <div class="date-picker">
+            <label for="diary-date">Select Date:</label>
+            <input type="date" id="diary-date">
+        </div>
+
+        <textarea id="diary-entry" placeholder="Write your thoughts here..."></textarea>
+
+        <div class="buttons">
+            <button id="save-entry">Save Entry</button>
+            <button id="clear-entry">Clear</button>
+            <button id="view-entries">View Past Entries</button>
+        </div>
+    </section>
+
+    <!-- Past Entries Modal -->
+    <div id="entries-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Past Diary Entries</h2>
+            <ul id="entries-list"></ul>
+        </div>
+    </div>
+
+    <script src="diary/style.css"></script>
+</body>
+</html>

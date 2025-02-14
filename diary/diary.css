@@ -1,0 +1,137 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+/* Reduce Font Size of "My Personal Diary" */
+header h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Diary Container - Increased Height */
+.diary-container {
+    background: #FBF7FF;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px; /* Increased padding for more space */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    min-height: 500px; /* Increased height for a more spacious feel */
+}
+
+/* Date Picker */
+.date-picker {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.date-picker input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Adjusted Text Area Size */
+#diary-entry {
+    width: calc(100% - 20px);
+    height: 350px; /* Increased text box height */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+    transition: 0.3s;
+    color: white;
+}
+
+/* First Button - Green */
+#save-entry {
+    background-color: green;
+}
+
+/* Second Button - Red */
+#clear-entry {
+    background-color: red;
+}
+
+/* Third Button - Black */
+#view-entries {
+    background-color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Modal for Past Entries */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10% auto;
+    text-align: left;
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+/* Entries List */
+#entries-list {
+    list-style: none;
+    padding: 0;
+}
+
+#entries-list li {
+    background: lavender;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+}

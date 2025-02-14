@@ -1,0 +1,95 @@
+/* Lavender color scheme with sans-serif font */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+.container {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.doctor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.doctor-card {
+    background-color: #ffffff;
+    border: 2px solid grey;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(106, 5, 114, 0.3);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-10px);
+}
+
+.doctor-name {
+    color:navy;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.doctor-name:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 5px 0;
+    color: black;
+}
+
+h3 {
+    margin-top: 15px;
+    color: navy;
+}
+
+.slots {
+    margin-top: 10px;
+}
+
+.slot {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.slot:hover {
+    background-color: blue;
+}
+
+.slot.booked {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  p {
+    overflow: hidden;
+  }

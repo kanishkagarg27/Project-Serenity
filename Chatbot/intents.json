@@ -1,0 +1,182 @@
+//this is a basic demo pull request
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+
+  {"tag": "Anxiety",
+  "patterns": ["overwhelmed","stop overthinking","anxiety attack"],
+  "responses": ["Few small things that could help are: \nTry some breathing exercises, \n Listening to music, \n Writing down the thoughts that worry you and also things that you are grateful for."]
+  },
+
+  {"tag": "Depression",
+  "patterns": ["motivation", "depressed","no energy to get out of bed","negative thoughts"],
+  "responses": ["Start small and easy like drinking water, making your bed\n Change your environment \n Find external accountability"]
+  },
+
+   {"tag": "EmotionalSupport",
+  "patterns": ["no one understands me", "lonely","things get better"],
+  "responses": ["Feelings are temporary. Try to divert youself by focusing just on today.\n Reach out to someone, remember you are not alone!!!\n Try to get outside, writing out your thoughts always helps and try to focus on what you can control.\n Remind yourself, YOU MATTER and that you are worthy of love and care even for yourself!"]
+  },
+
+   {"tag": "General",
+  "patterns": ["symptoms of depression","professional health","therapy"],
+  "responses": ["There can be emotional, physical or mental symptoms like feeling empty or hopeless, being irritable, energy dropping down or withdrawing from friends and family. \n If these symptoms last longer than a few weeks, professional help can be considered. \n Therapy can be considered, it is basically about expressing yourself to someone. More information regarding therapists in your area can be found on our website."]
+  },
+
+  {"tag": "Crucial",
+  "patterns": ["giving up","suicidal thoughts","therapist","hotline"],
+  "responses": ["Focus on getting through the day.\n Keep yourself safe and try to remove anything dangerous from your reach\n Do one kind thing for yourself\n For hotline numbers and therapists in your area, please checkout our website.\n Andthe most important thing, remember you are not alone!"]
+  },
+
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me Devin","I'm Devin","I'm Devin your virtual assistant","Hello,I'm Devin","I'm Devin your virtual assistant, what can I help?"]
+  },
+  
+
+  {"tag": "nervousness",
+  "patterns": ["I'm feeling nervous","I have butterflies in my stomach","I'm scared about something","nervousness", "I feel nervous"],
+  "responses": ["It's okay to feel nervous. Deep breaths can help calm your mind.",
+    "Try focusing on the present moment. Would you like a grounding exercise?",
+    "You got this! Nervousness means you care about what’s coming.",
+    "Would you like to talk about what’s making you nervous?",
+    "A short walk, deep breaths, or a calming activity might help. Do you want some tips?"]
+  },
+
+
+  {"tag": "sleeplessness",
+  "patterns": [
+    "I can't sleep","I'm having trouble sleeping","I have insomnia","My mind won't stop at night","I keep waking up in the middle of the night","I feel restless at night","unable to sleep at all"],
+  "responses": [
+    "I'm sorry you're struggling with sleep. Have you tried deep breathing or a bedtime routine?",
+    "Avoiding screens before bed and keeping a dark, quiet room may help. Would you like some sleep tips?",
+    "Try a simple relaxation technique: breathe in for 4 seconds, hold for 7, and exhale for 8.",
+    "A warm drink, soft music, or reading can sometimes help relax your mind before bed.",
+    "If sleeplessness persists, consider speaking with a doctor or therapist for guidance."]
+  },
+
+  {"tag": "panic_attack",
+  "patterns": [ "I'm having a panic attack", "My heart is racing","I feel like I'm losing control",  "I'm panicking"],
+  "responses": [
+    "You're safe. Try to take slow, deep breaths with me: inhale for 4 seconds, hold for 4, exhale for 6.","I know its quite tough,have a walk without any device for 10 minutes",
+    "Focus on something around you. Can you name five things you see and hear?",
+    "Panic attacks can be scary, but they always pass. You are not in danger.",
+    "Try grounding yourself: press your feet on the floor, rub your hands together, or hold something cold.",
+    "You're not alone. If this happens often, consider talking to someone you trust or a professional."
+  ]
+  },
+
+  {"tag": "overthinking",
+  "patterns": [
+    "I can't stop thinking",
+    "My mind won’t stop",
+    "I'm overthinking everything",
+    "I keep replaying things in my head",
+    "I can't stop worrying",
+    "My thoughts are overwhelming me"
+  ],
+  "responses": [
+    "Overthinking can be exhausting. Try writing down your thoughts to clear your mind.",
+    "Take a deep breath and focus on the present moment. Would you like a simple mindfulness exercise?",
+    "It's okay to let go of things that are out of your control. What’s something positive you can focus on?",
+    "Try shifting your attention to something calming, like music, a book, or a short walk.",
+    "You're not alone in this. Overthinking is common, but small steps can help manage it. Would you like some grounding techniques?"
+  ]
+  },
+
+  { "tag": "breathlessness",
+  "patterns": [
+    "I can't breathe properly",
+    "I'm feeling breathless",
+    "I feel like I can't catch my breath",
+    "My breathing is shallow",
+    "I feel short of breath",
+    "I'm struggling to breathe"
+  ],
+  "responses": [
+    "You're safe. Try this: inhale deeply through your nose for 4 seconds, hold for 4, and exhale slowly for 6.",
+    "Breathlessness can be caused by anxiety. Try placing one hand on your belly and focusing on slow breaths.",
+    "You're not alone. If this happens often, it might help to talk to a doctor or therapist.",
+    "Try sitting upright and relaxing your shoulders. Controlled breathing can help regulate your body.",
+    "If this is sudden or severe, seek medical help immediately. Otherwise, let's try a calming breathing exercise together."
+  ]
+  },
+
+  { "tag": "stress",
+  "patterns": [
+    "I'm feeling stressed",
+    "I have too much on my mind",
+    "I can't handle everything",
+    "I am having a lot of stress level",
+    "I feel so much pressure",
+    "I'm under a lot of stress"
+  ],
+  "responses": [
+    "I'm sorry you're feeling this way. Would you like to talk about what’s causing your stress?",
+    "Take a deep breath. Sometimes, breaking tasks into smaller steps can help.",
+    "You don’t have to do everything at once. Prioritizing and taking breaks can make a difference.",
+    "Try some relaxation techniques like deep breathing or stretching. Would you like some tips?",
+    "Stress is tough, but you're not alone. Would you like a quick mindfulness exercise?"
+  ]
+  },
+
+  {
+    "tag": "shaking",
+    "patterns": [
+      "I'm shaking",
+      "My hands are trembling",
+      "I feel shaky",
+      "My body is trembling",
+      "I can't stop shaking"
+    ],
+    "responses": [
+      "You're safe. Try taking slow, deep breaths with me: inhale for 4 seconds, hold for 4, and exhale for 6.",
+      "Shaking can be caused by anxiety or stress. Try grounding yourself—press your feet against the floor and focus on something around you.",
+      "Drinking some water, stretching, or holding something cold might help calm your body.",
+      "You’re not alone. If this happens often, consider talking to a doctor or therapist.",
+      "It will pass. Your body is reacting to stress, but you are in control. Would you like a calming exercise?"
+    ]
+  },
+
+
+ {
+  "tag": "scared",
+  "patterns": [
+    "I'm scared",
+    "I feel afraid",
+    "I'm feeling fearful",
+    "I'm nervous and scared",
+    "I don't feel safe",
+    "I'm terrified"
+  ],
+  "responses": [
+    "It's okay to feel scared. You're safe, and I'm here for you.",
+    "Fear can be overwhelming, but you're stronger than you think. Would you like to try a calming exercise?",
+    "Try grounding yourself—focus on your surroundings and take slow, deep breaths.",
+    "You're not alone. Talking to someone you trust can help ease fear.",
+    "Fear will pass. Would you like some distraction techniques or coping strategies?"
+  ]
+},
+
+{
+  "tag": "dizzy",
+  "patterns": [
+    "I feel dizzy",
+    "I'm lightheaded",
+    "My head is spinning",
+    "I feel like I'm going to faint",
+    "I feel unsteady",
+    "I'm feeling woozy"
+  ],
+  "responses": [
+    "Try sitting or lying down for a moment. Take slow, deep breaths and focus on one fixed point.",
+    "Dizziness can be caused by stress, dehydration, or anxiety. Have you had enough water today?",
+    "If you can, drink some water and take a few deep breaths. Let me know if you’d like relaxation tips.",
+    "You're not alone. If this happens often, consider talking to a doctor.",
+    "Your body might just need a moment to stabilize. Would you like a simple breathing exercise to help?"
+  ]
+}
+]}
+

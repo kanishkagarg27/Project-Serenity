@@ -1,0 +1,60 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Planner Grid */
+.planner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Individual Day Boxes */
+.day {
+    background: white; /* Updated to white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #6A0572;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+

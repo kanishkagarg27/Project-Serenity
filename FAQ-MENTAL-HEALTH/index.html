@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Mental Health Support</title>
+    <link rel="stylesheet" href="background.css">
+       </head>
+<body>
+    <div class="container">
+            <h1 class="faq">Frequently Asked Questions
+            <img src="faq-icon-1024x1024-z4ncur0t.png" alt="FAQ Icon" class="faqicon">
+        </h1>
+        <div class="faq">
+            <div class="question" onclick="toggleAnswer(0)">
+                What is this website about?
+                <span class="dropdown-icon">▼ </span>
+            </div>
+            <div class="answer">This website provides mental health support through a chatbot, consultant access, and a personal diary.</div>
+            
+            <div class="question" onclick="toggleAnswer(1)">
+                How does the chatbot work?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">The chatbot uses AI to provide emotional support, coping strategies, and mental health resources.</div>
+            
+            <div class="question" onclick="toggleAnswer(2)">
+                Can I talk to a real consultant?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">Yes, you can book an appointment with a mental health professional through our platform.</div>
+            
+            <div class="question" onclick="toggleAnswer(3)">
+                Is my data safe and private?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">Yes, all your information, including diary entries and chatbot conversations, is kept confidential.</div>
+            
+            <div class="question" onclick="toggleAnswer(4)">
+                How can I track my mental health progress?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">Use the personal diary feature to log your thoughts and emotions over time.</div>
+            
+            <div class="question" onclick="toggleAnswer(5)">
+                Is this service free?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">Some features are free, while consultant sessions may have a fee. Check our pricing section for more details.</div>
+            
+            <div class="question" onclick="toggleAnswer(6)">
+                How can I get immediate help in a crisis?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">If you are in crisis, please seek immediate help from local emergency services or mental health helplines available in your region.</div>
+            
+            <div class="question" onclick="toggleAnswer(7)">
+                Can I use this platform anonymously?
+                <span class="dropdown-icon">▼</span>
+            </div>
+            <div class="answer">Yes, we offer anonymous usage options to protect your privacy and ensure a safe experience.</div>
+        </div>
+    </div>
+    <script>
+        function toggleAnswer(index) {
+            var answers = document.querySelectorAll(".answer");
+            var icons = document.querySelectorAll(".dropdown-icon");
+            
+            if (answers[index].style.display === "block") {
+                answers[index].style.display = "none";
+                icons[index].classList.remove("rotate");
+            } else {
+                answers[index].style.display = "block";
+                icons[index].classList.add("rotate");
+            }
+        }
+    </script>
+</body>
+</html>
